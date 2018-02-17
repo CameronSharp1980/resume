@@ -1,0 +1,116 @@
+/* GENERAL RULES */
+
+h1, h2, h3, h4, h5, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover, a:visited, a:active {
+    color: #2424b7;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.background-blue {
+    background-color: #2424b7;
+}
+
+.entry-heading {
+    color: #2424b7;
+}
+
+.entry-subtext {
+    font-size: 1.75rem;
+    margin: 3px 5px;
+}
+
+.entry-details {
+    color: #666666;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.lh-4{
+    line-height: 4rem;
+}
+.fs-9{
+    font-size: .9em;
+}
+
+/* BOOTSTRAP ALTERATIONS */
+
+.progress {
+    height: .75rem;
+    border-radius: 0;
+}
+
+/* SIDEBAR RULES */
+
+.sidebar {
+    background-color: #000000;
+    padding: 15px 50px;
+}
+
+.headshot {
+    background-color: red;
+    height: 200px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.large-quotes {
+    font-size: 2rem;
+    margin: 1.75rem 0;
+}
+
+.sidebar-block {
+    margin-top: 5rem;
+}
+
+.no-bullets {
+    list-style: none;
+    margin: 2rem 0 0 0;
+    padding: 0;
+}
+
+/* RESUME BODY RULES */
+
+.resume-top {
+    margin: 5rem 0 0 3rem;
+}
+
+.resume-top-block {
+    margin: 0 0 2rem 0;
+}
+
+.heading-inverse {
+    background-color: #2424b7;
+    color: #ffffff;
+    margin-left: -15px;
+    padding: 3px 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div .resume-entry-list{
+    margin: 10px 0;
+}
+
+/* @MEDIA RULES */
+
+@media screen and (max-width: 992px) {
+    .resume-top {
+        text-align: center;
+        margin: 5rem 0;
+    }
+}
